@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Калькулятор</title>
+    <style>
+        .container{
+            width: 112px;
+            background-color: black;
+        }
+        .btn{
+            height: 25px;
+            width: 25px;
+            background-color: aqua;
+        }
+        .output{
+            height: 20px;
+            width: 104px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+	<!-- <input id="input" > -->
+    <br>
+    <input id = "output" class="output" dir = "rtl" readonly>
+    <br>
+    <div class="container">
+    <button class="btn" onclick="input('1')">1</button>
+    <button class="btn" onclick="input('2')">2</button>
+    <button class="btn" onclick="input('3')">3</button>
+    <button class="btn" onclick="input('+')">+</button>
+    <br>
+    <button class="btn" onclick="input('4')">4</button>
+    <button class="btn" onclick="input('5')">5</button>
+    <button class="btn" onclick="input('6')">6</button>
+    <button class="btn" onclick="input('-')">-</button>
+    <br>
+    <button class="btn" onclick="input('7')">7</button>
+    <button class="btn" onclick="input('8')">8</button>
+    <button class="btn" onclick="input('9')">9</button>
+    <button class="btn" onclick="input('/')">/</button>
+    <br>
+    <button class="btn" onclick="input('0')">0</button>
+    <button class="btn" onclick="result('')">=</button>
+    <button class='btn' onclick = "input('c')">C</button>
+    <button class="btn" onclick="input('*')">*</button>
+    </div>
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
