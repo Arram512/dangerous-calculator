@@ -12,41 +12,42 @@
             height: 25px;
             width: 25px;
             background-color: aqua;
+            
         }
         .output{
             height: 20px;
             width: 104px;
             background-color: aqua;
         }
-    </style>
+        .btn1{
+            height: 25px;
+            width: 25px;
+            background-color: red;
+        }
+    </style> 
 </head>
 <body>
     <br>
-    <input id = "output" class="output" dir = "rtl" readonly>
+    <input id = "output" class="output"  readonly>
     <br>
     <div class="container">
-    <button class="btn" onclick="input('1')">1</button>
-    <button class="btn" onclick="input('2')">2</button>
-    <button class="btn" onclick="input('3')">3</button>
-    <button class="btn" onclick="input('+')">+</button>
-    <br>
-    <button class="btn" onclick="input('4')">4</button>
-    <button class="btn" onclick="input('5')">5</button>
-    <button class="btn" onclick="input('6')">6</button>
-    <button class="btn" onclick="input('-')">-</button>
-    <br>
-    <button class="btn" onclick="input('7')">7</button>
-    <button class="btn" onclick="input('8')">8</button>
-    <button class="btn" onclick="input('9')">9</button>
-    <button class="btn" onclick="input('/')">/</button>
-    <br>
-    <button class="btn" onclick="input('0')">0</button>
-    <button class="btn" onclick="result('')">=</button>
-    <button class='btn' onclick = "input('c')">C</button>
-    <button class="btn" onclick="input('*')">*</button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn1" id = "subtraction">-</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn1" id = "sum">+</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn1" id = "multiplication">*</button>
+        <button class="btn1" id = "result">=</button>
+        <button class="btn">0</button>
+        <button class="btn1" id = "clear">C</button>
+        <button class="btn1" id = "division">/</button>
     </div>
-
-
 
     <script src="scripts.js"></script>
 </body>
