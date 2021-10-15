@@ -41,7 +41,7 @@ document.getElementById('division').onclick = function(){
 document.getElementById("clear").onclick = function(){
     value_1 = 0
     value_2 = 0
-    output.value = 0
+    output.value = ''
 }
 
 var func = document.getElementById('result').onclick = function(){
@@ -49,7 +49,7 @@ var func = document.getElementById('result').onclick = function(){
         res = Number(value_2) + Number(value_1)
         output.value = res
         value_1 = res
-        value_2 = res
+        value_2 = ''
         temp = 0
     }
     if(operation == "-"){
